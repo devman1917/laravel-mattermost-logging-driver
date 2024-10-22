@@ -35,5 +35,7 @@
     },
     "scripts": {
         "test": "phpunit --configuration=phpunit.xml.dist"
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
