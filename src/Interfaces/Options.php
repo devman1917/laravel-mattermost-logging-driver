@@ -1,10 +1,10 @@
 <?php
 
-namespace Dbt\Mattermost\Logger\Interfaces;
+namespace DEVMAN1917\Mattermost\Logger\Interfaces;
 
-use Dbt\Mattermost\Logger\Values\Format;
-use Dbt\Mattermost\Logger\Values\Level;
-use Dbt\Mattermost\Logger\Values\Webhook;
+use DEVMAN1917\Mattermost\Logger\Values\Format;
+use DEVMAN1917\Mattermost\Logger\Values\Level;
+use DEVMAN1917\Mattermost\Logger\Values\Webhook;
 
 interface Options
 {

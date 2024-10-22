@@ -1,11 +1,11 @@
 <?php
 
-namespace Dbt\Mattermost\Logger;
+namespace DEVMAN1917\Mattermost\Logger;
 
-use Dbt\Mattermost\Logger\Interfaces\Message;
-use Dbt\Mattermost\Logger\Interfaces\Options;
-use Dbt\Mattermost\Logger\Interfaces\Scribe;
-use Dbt\Mattermost\Logger\Values\Level;
+use DEVMAN1917\Mattermost\Logger\Interfaces\Message;
+use DEVMAN1917\Mattermost\Logger\Interfaces\Options;
+use DEVMAN1917\Mattermost\Logger\Interfaces\Scribe;
+use DEVMAN1917\Mattermost\Logger\Values\Level;
 use Illuminate\Support\Str;
 
 final class DefaultScribe implements Scribe
@@ -19,10 +19,10 @@ final class DefaultScribe implements Scribe
     /** @var ?\Exception */
     private $exception;
 
-    /** @var \Dbt\Mattermost\Logger\Interfaces\Options */
+    /** @var \DEVMAN1917\Mattermost\Logger\Interfaces\Options */
     private $options;
 
-    /** @var \Dbt\Mattermost\Logger\Interfaces\Message */
+    /** @var \DEVMAN1917\Mattermost\Logger\Interfaces\Message */
     private $message;
 
     public function __construct(

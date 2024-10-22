@@ -1,11 +1,11 @@
 <?php
 
-namespace Dbt\Mattermost\Logger;
+namespace DEVMAN1917\Mattermost\Logger;
 
-use Dbt\Mattermost\Logger\Interfaces\Options;
-use Dbt\Mattermost\Logger\Values\Format;
-use Dbt\Mattermost\Logger\Values\Level;
-use Dbt\Mattermost\Logger\Values\Webhook;
+use DEVMAN1917\Mattermost\Logger\Interfaces\Options;
+use DEVMAN1917\Mattermost\Logger\Values\Format;
+use DEVMAN1917\Mattermost\Logger\Values\Level;
+use DEVMAN1917\Mattermost\Logger\Values\Webhook;
 use Illuminate\Routing\UrlGenerator;
 
 final class DefaultOptions implements Options
@@ -37,10 +37,10 @@ final class DefaultOptions implements Options
     /** @var string|null */
     private $iconUrl;
 
-    /** @var \Dbt\Mattermost\Logger\Values\Format */
+    /** @var \DEVMAN1917\Mattermost\Logger\Values\Format */
     private $titleFormat;
 
-    /** @var \Dbt\Mattermost\Logger\Values\Format */
+    /** @var \DEVMAN1917\Mattermost\Logger\Values\Format */
     private $titleMentionFormat;
 
     public function __construct (

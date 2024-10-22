@@ -1,6 +1,6 @@
 <?php
 
-namespace Dbt\Mattermost\Logger\Interfaces;
+namespace DEVMAN1917\Mattermost\Logger\Interfaces;
 
 use Closure;
 use Exception;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Dbt\Mattermost\Logger;
+namespace DEVMAN1917\Mattermost\Logger;
 
-use Dbt\Mattermost\Logger\Interfaces\Message;
-use Dbt\Mattermost\Logger\Values\Webhook;
+use DEVMAN1917\Mattermost\Logger\Interfaces\Message;
+use DEVMAN1917\Mattermost\Logger\Values\Webhook;
 use GuzzleHttp\Client;
 
 final class Mattermost

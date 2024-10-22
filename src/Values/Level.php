@@ -1,6 +1,6 @@
 <?php
 
-namespace Dbt\Mattermost\Logger\Values;
+namespace DEVMAN1917\Mattermost\Logger\Values;
 
 final class Level
 {

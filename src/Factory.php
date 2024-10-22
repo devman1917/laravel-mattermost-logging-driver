@@ -1,12 +1,12 @@
 <?php
 
-namespace Dbt\Mattermost\Logger;
+namespace DEVMAN1917\Mattermost\Logger;
 
 use Monolog\Logger;
 
 final class Factory
 {
-    /** @var \Dbt\Mattermost\Logger\Mattermost */
+    /** @var \DEVMAN1917\Mattermost\Logger\Mattermost */
     private $mattermost;
 
     public function __construct (Mattermost $mattermost)

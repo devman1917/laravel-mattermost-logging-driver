@@ -1,10 +1,10 @@
 <?php
 
-namespace Dbt\Mattermost\Logger;
+namespace DEVMAN1917\Mattermost\Logger;
 
 use Closure;
 use Coduo\ToString\StringConverter;
-use Dbt\Mattermost\Logger\Interfaces\Message;
+use DEVMAN1917\Mattermost\Logger\Interfaces\Message;
 use Exception;
 use ThibaudDauce\Mattermost\Attachment;
 use ThibaudDauce\Mattermost\Message as MattermostMessage;
