@@ -1,12 +1,12 @@
 <?php
 
-namespace Dbt\Tests;
+namespace DEVMAN1917\Tests;
 
-use Dbt\Mattermost\Logger\DefaultOptions;
-use Dbt\Mattermost\Logger\Values\Format;
-use Dbt\Mattermost\Logger\Values\Level;
-use Dbt\Mattermost\Logger\Values\Webhook;
-use Dbt\Tests\Worlds\OptionsTestWorld;
+use DEVMAN1917\Mattermost\Logger\DefaultOptions;
+use DEVMAN1917\Mattermost\Logger\Values\Format;
+use DEVMAN1917\Mattermost\Logger\Values\Level;
+use DEVMAN1917\Mattermost\Logger\Values\Webhook;
+use DEVMAN1917\Tests\Worlds\OptionsTestWorld;
 use PHPUnit\Framework\TestCase;
 
 class OptionsTest extends TestCase

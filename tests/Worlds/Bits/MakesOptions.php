@@ -1,9 +1,9 @@
 <?php
 
-namespace Dbt\Tests\Worlds\Bits;
+namespace DEVMAN1917\Tests\Worlds\Bits;
 
-use Dbt\Mattermost\Logger\DefaultOptions;
-use Dbt\Mattermost\Logger\Interfaces\Options;
+use DEVMAN1917\Mattermost\Logger\DefaultOptions;
+use DEVMAN1917\Mattermost\Logger\Interfaces\Options;
 
 trait MakesOptions
 {

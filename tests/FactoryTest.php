@@ -1,9 +1,9 @@
 <?php
 
-namespace Dbt\Tests;
+namespace DEVMAN1917\Tests;
 
-use Dbt\Mattermost\Logger\Factory;
-use Dbt\Mattermost\Logger\Mattermost;
+use DEVMAN1917\Mattermost\Logger\Factory;
+use DEVMAN1917\Mattermost\Logger\Mattermost;
 use GuzzleHttp\Client;
 use Monolog\Logger;
 use PHPUnit\Framework\TestCase;

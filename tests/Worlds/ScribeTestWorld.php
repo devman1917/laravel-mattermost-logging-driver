@@ -1,9 +1,9 @@
 <?php
 
-namespace Dbt\Tests\Worlds;
+namespace DEVMAN1917\Tests\Worlds;
 
-use Dbt\Tests\Worlds\Bits\MakesOptions;
-use Dbt\Tests\Worlds\Bits\MakesRecords;
+use DEVMAN1917\Tests\Worlds\Bits\MakesOptions;
+use DEVMAN1917\Tests\Worlds\Bits\MakesRecords;
 
 trait ScribeTestWorld
 {

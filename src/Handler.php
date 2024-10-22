@@ -6,6 +6,7 @@ use DEVMAN1917\Mattermost\Logger\Interfaces\Options;
 use DEVMAN1917\Mattermost\Logger\Interfaces\Scribe;
 use DEVMAN1917\Mattermost\Logger\Values\Level;
 use Monolog\Handler\AbstractProcessingHandler;
+use Monolog\LogRecord;
 
 final class Handler extends AbstractProcessingHandler
 {
@@ -34,7 +35,7 @@ final class Handler extends AbstractProcessingHandler
         $this->messageClass = $messageClass;
     }
 
-    public function write (array $record): void
+    public function write (LogRecord $record): void
     {
         if (!$this->shouldWrite($record['level'])) {
             return;
@@ -46,7 +47,7 @@ final class Handler extends AbstractProcessingHandler
         );
     }
 
-    private function makeScribe (array $record): Scribe
+    private function makeScribe (LogRecord $record): Scribe
     {
         return new $this->scribeClass(
             new $this->messageClass,

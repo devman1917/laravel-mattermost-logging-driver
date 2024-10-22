@@ -1,11 +1,11 @@
 <?php
 
-namespace Dbt\Tests;
+namespace DEVMAN1917\Tests;
 
-use Dbt\Mattermost\Logger\DefaultMessage;
-use Dbt\Mattermost\Logger\DefaultScribe;
-use Dbt\Mattermost\Logger\Interfaces\Message;
-use Dbt\Tests\Worlds\ScribeTestWorld;
+use DEVMAN1917\Mattermost\Logger\DefaultMessage;
+use DEVMAN1917\Mattermost\Logger\DefaultScribe;
+use DEVMAN1917\Mattermost\Logger\Interfaces\Message;
+use DEVMAN1917\Tests\Worlds\ScribeTestWorld;
 use PHPUnit\Framework\TestCase;
 
 class ScribeTest extends TestCase

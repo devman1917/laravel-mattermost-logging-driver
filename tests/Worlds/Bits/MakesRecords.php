@@ -1,6 +1,6 @@
 <?php
 
-namespace Dbt\Tests\Worlds\Bits;
+namespace DEVMAN1917\Tests\Worlds\Bits;
 
 trait MakesRecords
 {
